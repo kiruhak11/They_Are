@@ -43,6 +43,10 @@ public class wallpaper extends AppCompatActivity implements View.OnClickListener
                 startActivity(intent1);
                 break;
 
+            case R.id.q2:
+                Intent intent3 = new Intent(wallpaper.this, lvl1.class);
+                startActivity(intent3);
+
 
         }
 

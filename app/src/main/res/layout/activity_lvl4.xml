@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".wallpaper"
+    tools:context=".lvl4"
     android:background="@color/colorPrimaryDark">
 
-
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Пока ты собирался на работу, ты Пролил кофе которое сварил себе!
+Что ты сделаешь?"
+        android:textColor="@color/colorName"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:gravity="center"
-        android:text="@string/predistor"
-        android:textColor="@color/colorAccent"
-        android:textSize="16dp"
-        android:layout_marginTop="70dp"/>
+        />
 
     <Button
         android:layout_width="wrap_content"
@@ -30,21 +31,28 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ПредИстория! "
-        android:textSize="36dp"
+        android:id="@+id/wanich"
+        android:text="Протереть пол"
+        android:textColor="@color/color1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/colorName"/>
+        android:layout_marginTop="150dp"
+        android:textSize="15dp"
+        android:clickable="true"
+        />
 
     <TextView
-        android:id="@+id/starter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Поехали!"
-        android:clickable="true"
+        android:id="@+id/nowanich"
+        android:text="Протереть пол"
         android:textColor="@color/color1"
-        android:textSize="17dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="420dp"/>
+        android:layout_marginTop="220dp"
+        android:textSize="15dp"
+        android:clickable="true"
+        />
+
+
+
 
 </RelativeLayout>

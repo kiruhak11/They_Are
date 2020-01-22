@@ -30,6 +30,8 @@ public class info extends AppCompatActivity implements View.OnClickListener{
                 Intent intent = new Intent(info.this, MainActivity.class);
                 startActivity(intent);
                 break;
+
+
         }
     }
 }

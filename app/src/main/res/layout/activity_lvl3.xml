@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".wallpaper"
+    tools:context=".lvl3"
     android:background="@color/colorPrimaryDark">
-
 
     <Button
         android:layout_width="wrap_content"
@@ -14,40 +13,31 @@
         android:id="@+id/back"
         android:layout_margin="20dp"
         android:text="В меню"
-        android:layout_alignParentBottom="true"
-        />
+        android:layout_alignParentBottom="true"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Что дальше? "
-        android:textSize="30dp"
+        android:text="@string/nslp"
+        android:textColor="@color/colorName"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:textColor="@color/colorName"/>
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/q1"
-        android:layout_marginTop="150dp"
-        android:layout_centerHorizontal="true"
-        android:text="Прочитать пред историю"
-        android:clickable="true"
-        android:textColor="@color/color1" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/q2"
-        android:clickable="true"
-        android:text="Продолжить без пред истории"
-        android:layout_marginTop="200dp"
-        android:layout_centerHorizontal="true"
+        android:text="Посмотреть в окно"
         android:textColor="@color/color1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:id="@+id/window"
         />
-
-
 
 
 </RelativeLayout>

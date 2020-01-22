@@ -11,11 +11,71 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/colorName"
-        android:text=""
+        android:text="@string/lvl2"
         android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorName"
+    android:text="Что дальше?"
+        android:textStyle="bold"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:layout_marginTop="130dp"
+    android:textSize="20dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_margin="20dp"
+        android:text="В меню"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="@string/call"
+        android:textColor="@color/color1"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sleep"
+        android:layout_marginTop="250dp"
+        android:text="@string/sleep"
+        android:textColor="@color/color1"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jobs"
+        android:layout_marginTop="300dp"
+        android:text="@string/jobs"
+        android:textColor="@color/color1"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
 
 
 

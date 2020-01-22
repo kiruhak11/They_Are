@@ -15,39 +15,45 @@
         android:layout_centerHorizontal="true"
         android:textSize="50dp"
         android:layout_marginTop="10dp"
-        android:textColor="@color/colorAccent"/>
+        android:textColor="@color/colorName"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Создано при поддержки паблика VK GsMemes"
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorAccent"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="80dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Создатели"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorName"
         android:textStyle="bold"
-        android:layout_marginTop="130dp"/>
+        android:layout_marginTop="160dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kiruhak"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/colorAccent"
-        android:layout_marginTop="160dp"/>
+        android:textColor="@color/color1"
+        android:layout_marginTop="200dp"
+        android:textSize="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rubillex"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/colorAccent"
-        android:layout_marginTop="190dp"/>
+        android:textColor="@color/color1"
+        android:layout_marginTop="230dp"
+        android:textSize="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -55,23 +61,24 @@
         android:text="Бета-тестеры"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:textColor="@color/colorAccent"
-        android:layout_marginTop="250dp"/>
+        android:textColor="@color/colorName"
+        android:layout_marginTop="290dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GreySharkra"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/colorAccent"
-        android:layout_marginTop="280dp"/>
+        android:textColor="@color/color1"
+        android:layout_marginTop="320dp"
+        android:textSize="15dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/back"
         android:layout_margin="20dp"
-        android:text="назад"
+        android:text="В меню"
         android:layout_alignParentBottom="true" />
 
 
