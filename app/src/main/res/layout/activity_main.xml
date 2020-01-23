@@ -26,6 +26,7 @@
         android:layout_centerHorizontal="true"
         android:text="They Are"
         android:textSize="50dp"
+        android:clickable="true"
         android:layout_marginTop="100dp"
         android:textColor="@color/colorName"/>
 
@@ -33,7 +34,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="V 0.01 alpha"
+        android:text="V 0.03 alpha"
         android:textSize="10dp"
         android:layout_alignParentBottom="true"
         android:textColor="@color/colorAccent"
@@ -46,9 +47,31 @@
         android:clickable="true"
         android:textSize="24dp"
         android:text="Info"
-        android:textColor="@color/color1"
+        android:textColor="@color/color11"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="450dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize="24dp"
+        android:text="Поддержать проект"
+        android:textColor="@color/color11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Текстовый квест by GsMemes"
+        android:textColor="@color/color1"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="165dp"
+        />
 
 
 </RelativeLayout>

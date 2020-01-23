@@ -34,7 +34,7 @@
         android:textColor="@color/color1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
-        android:textSize="15dp"
+        android:textSize="17dp"
         android:clickable="true"
         android:id="@+id/window"
         />

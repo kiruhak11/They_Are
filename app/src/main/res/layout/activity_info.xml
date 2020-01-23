@@ -35,7 +35,10 @@
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorName"
         android:textStyle="bold"
-        android:layout_marginTop="160dp"/>
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,7 +47,12 @@
         android:layout_centerHorizontal="true"
         android:textColor="@color/color1"
         android:layout_marginTop="200dp"
-        android:textSize="15dp"/>
+        android:textSize="15dp"
+        android:clickable="true"
+        android:id="@+id/psh5"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -53,7 +61,12 @@
         android:layout_centerHorizontal="true"
         android:textColor="@color/color1"
         android:layout_marginTop="230dp"
-        android:textSize="15dp"/>
+        android:textSize="15dp"
+        android:clickable="true"
+        android:id="@+id/psh4"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,7 +75,33 @@
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
         android:textColor="@color/colorName"
-        android:layout_marginTop="290dp"/>
+        android:layout_marginTop="290dp"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goombit"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color1"
+        android:layout_marginTop="350dp"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:id="@+id/psh3"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/back"
+    android:layout_margin="20dp"
+    android:text="В меню"
+    android:layout_alignParentBottom="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -71,15 +110,29 @@
         android:layout_centerHorizontal="true"
         android:textColor="@color/color1"
         android:layout_marginTop="320dp"
-        android:textSize="15dp"/>
+        android:textSize="15dp"
+        android:clickable="true"
+        android:id="@+id/psh2"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/back"
-        android:layout_margin="20dp"
-        android:text="В меню"
-        android:layout_alignParentBottom="true" />
+        android:text="(Что бы посмотреть информацию о разработчиках, просто нажми на имя!)"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color11"
+        android:layout_marginTop="420dp"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+
+
 
 
 
