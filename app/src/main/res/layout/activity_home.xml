@@ -4,21 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lvl4"
+    tools:context=".home"
     android:background="@color/colorPrimaryDark">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Пока ты собирался на работу, ты Пролил кофе которое сварил себе!
-Что ты сделаешь?"
-        android:textColor="@color/colorName"
-        android:textSize="20dp"
-        android:gravity="center"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        />
 
     <Button
         android:layout_width="wrap_content"
@@ -31,28 +18,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/wanich"
-        android:text="Протереть пол"
-        android:textColor="@color/color1"
+        android:textColor="@color/colorName"
+        android:textSize="20dp"
+        android:text="Ты заперся, и закoлатил все двери и окна!
+Но через некоторое время Они начали долбится в дом!
+Что будем делать дальше?!"
+        android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
-        android:textSize="15dp"
-        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/nowanich"
-        android:text="Само высохнет"
+        android:textSize="17dp"
+        android:textColor="@color/color1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Начать войну против Зомби!"
+        android:clickable="true"
+        android:id="@+id/war"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
         android:textColor="@color/color1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="220dp"
-        android:textSize="15dp"
+        android:text="Суицыд (выпрыгнуть в окно)"
         android:clickable="true"
-        />
-
-
-
+        android:id="@+id/scd"/>
 
 </RelativeLayout>

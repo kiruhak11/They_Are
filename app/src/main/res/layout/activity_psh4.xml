@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".window"
+    tools:context=".psh4"
     android:background="@color/colorPrimaryDark">
 
     <Button
@@ -18,24 +18,36 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="За окном ты увидел как бегают уже не очень адекватные то ли люди - то ли зомби!
-Что будем делать?!"
+        android:text="О Rubillex"
+        android:textSize="35dp"
         android:textColor="@color/colorName"
-        android:textSize="20dp"
-        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginTop="10dp"/>
+        android:gravity="center"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Заперется дома, и переждать этот ужас!"
-        android:textSize="17dp"
-        android:clickable="true"
         android:textColor="@color/color1"
-        android:layout_marginTop="140dp"
+        android:textSize="17dp"
+        android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
-        android:id="@+id/home"/>
+        android:gravity="center"
+        android:text="Разработчик данного приложения, брат создателя проекта, человек который дал код, администратор в группе проекта в телеграмме!"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back1"
+        android:layout_margin="20dp"
+        android:text="Назад"
+        android:layout_toRightOf ="@id/back"
+        android:layout_alignParentBottom="true"
+        />
 
 </RelativeLayout>

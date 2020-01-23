@@ -4,20 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lvl4"
+    tools:context=".Finich1"
     android:background="@color/colorPrimaryDark">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Пока ты собирался на работу, ты Пролил кофе которое сварил себе!
-Что ты сделаешь?"
+        android:text="Ты выпрыгнул в окно, и разбился насмерть..
+
+Через некоторое всемя разумной жизни на планете не осталось....
+
+Ты прошел квест!
+Но эта только одна концовка из 5!
+Предлагаю найти еще хотябы пару концовок!!"
         android:textColor="@color/colorName"
         android:textSize="20dp"
         android:gravity="center"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
         />
 
     <Button
@@ -31,28 +37,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/wanich"
-        android:text="Протереть пол"
+        android:id="@+id/help"
+        android:textSize="17dp"
         android:textColor="@color/color1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
-        android:textSize="15dp"
         android:clickable="true"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/nowanich"
-        android:text="Само высохнет"
-        android:textColor="@color/color1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="220dp"
-        android:textSize="15dp"
-        android:clickable="true"
-        />
-
-
+        android:gravity="center"
+        android:text="Поддержать проект"
+        android:layout_marginTop="300dp"/>
 
 
 </RelativeLayout>

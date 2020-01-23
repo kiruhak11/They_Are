@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pash1freeman"
+    android:background="@color/colorPrimaryDark">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/colorName"
+       android:text="Пасхалка"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="10dp"
+       android:textSize="30dp"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_margin="20dp"
+        android:text="В меню"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Игра была создана, вдохновляясь игрой Half-Life 2!"
+        android:textColor="@color/color1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+</RelativeLayout>

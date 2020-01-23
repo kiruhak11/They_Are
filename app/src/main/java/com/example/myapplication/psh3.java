@@ -4,36 +4,41 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class window extends AppCompatActivity implements View.OnClickListener{
+public class psh3 extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_window);
+        setContentView(R.layout.activity_psh3);
 
         Button back = (Button) findViewById(R.id.back);
         back.setOnClickListener(this);
 
-        TextView home = (TextView) findViewById(R.id.home);
-        home.setOnClickListener(this);
+        Button back1 = (Button) findViewById(R.id.back1);
+        back1.setOnClickListener(this);
     }
+
     @Override
     public void onClick(View view)
     {
         switch (view.getId()) {
             case R.id.back:
-                Intent intent = new Intent(window.this, MainActivity.class);
+
+                Intent intent = new Intent(psh3.this, MainActivity.class);
                 startActivity(intent);
                 break;
 
-            case R.id.home:
-                Intent intent1 = new Intent(window.this, home.class);
+            case R.id.back1:
+
+                Intent intent1 = new Intent(psh3.this, info.class);
                 startActivity(intent1);
                 break;
+
+
+
 
 
         }

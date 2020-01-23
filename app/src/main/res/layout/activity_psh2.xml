@@ -4,21 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lvl4"
+    tools:context=".psh2"
     android:background="@color/colorPrimaryDark">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Пока ты собирался на работу, ты Пролил кофе которое сварил себе!
-Что ты сделаешь?"
-        android:textColor="@color/colorName"
-        android:textSize="20dp"
-        android:gravity="center"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        />
 
     <Button
         android:layout_width="wrap_content"
@@ -31,28 +18,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/wanich"
-        android:text="Протереть пол"
-        android:textColor="@color/color1"
+        android:text="О GreySharkra"
+        android:textSize="35dp"
+        android:textColor="@color/colorName"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
-        android:textSize="15dp"
-        android:clickable="true"
-        />
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/nowanich"
-        android:text="Само высохнет"
         android:textColor="@color/color1"
+        android:textSize="17dp"
+        android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="220dp"
-        android:textSize="15dp"
-        android:clickable="true"
+        android:gravity="center"
+        android:text="Бета-Тестер данного приложения, хороший друг Разработчика, Администратор группы GsMemes!"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         />
 
 
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back1"
+        android:layout_margin="20dp"
+        android:text="Назад"
+        android:layout_toRightOf ="@id/back"
+        android:layout_alignParentBottom="true"
+        />
 
 </RelativeLayout>
