@@ -25,10 +25,10 @@ public class info extends AppCompatActivity implements View.OnClickListener{
         psh3.setOnClickListener(this);
 
         TextView psh4 = (TextView) findViewById(R.id.psh4);
-        psh3.setOnClickListener(this);
+        psh4.setOnClickListener(this);
 
         TextView psh5 = (TextView) findViewById(R.id.psh5);
-        psh3.setOnClickListener(this);
+        psh5.setOnClickListener(this);
     }
     @Override
     public void onClick(View view)

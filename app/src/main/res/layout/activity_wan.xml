@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,4 +7,54 @@
     tools:context=".wan"
     android:background="@color/colorPrimaryDark">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_margin="20dp"
+        android:text="В меню"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sz"
+        android:textColor="@color/colorName"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Ты протер пол и потерял сознание от недосыпа!
+Очнулся в 19:32 От воя сирен, у тебя болит голова!
+Что будешь делать?"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/window"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="@color/color1"
+        android:text="Посмотреть в окно"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sz"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="@color/color1"
+        android:text="Посмотреть в окно"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/window"/>
+
+</RelativeLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".nowan"
+    tools:context=".yes"
     android:background="@color/colorPrimaryDark">
 
     <Button
@@ -25,21 +25,22 @@
         android:gravity="center"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:text="Ты продолжел собератся на работу, но забыл телефон на кухне!
+        android:text="Пока шел за телефоном по кухне, подскользнулся на пролитом кофе и упал на пол, потерял сознание....
+Очнулся в 19:32 От воя сирен, у тебя болит голова!
 Что будешь делать?"
         android:layout_marginTop="10dp"
-        android:id="@+id/wsa"
+        android:id="@+id/wsa2"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/not"
+        android:id="@+id/window"
         android:textColor="@color/color1"
         android:clickable="true"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/wsa"
-        android:text="Оставлю телефон дома"
+        android:layout_below="@id/wsa2"
+        android:text="Посмотреть в окно"
         android:layout_marginTop="60dp"
         android:textSize="17dp"
         android:textStyle="bold"
@@ -48,14 +49,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/yes"
+        android:id="@+id/call"
         android:textColor="@color/color1"
         android:clickable="true"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/not"
-        android:text="Взять телефон с обой"
+        android:layout_below="@id/window"
+        android:text="Позвонить начальству!"
         android:layout_marginTop="60dp"
         android:textSize="17dp"
         android:textStyle="bold"
         />
+
 </RelativeLayout>

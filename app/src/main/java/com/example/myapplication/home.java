@@ -18,8 +18,8 @@ public class home extends AppCompatActivity implements View.OnClickListener{
         Button back = (Button) findViewById(R.id.back);
         back.setOnClickListener(this);
 
-        TextView textView = (TextView) findViewById(R.id.war);
-        textView.setOnClickListener(this);
+        TextView qwe = (TextView) findViewById(R.id.qwe);
+        qwe.setOnClickListener(this);
 
         TextView scd = (TextView) findViewById(R.id.scd);
         scd.setOnClickListener(this);
@@ -39,7 +39,7 @@ public class home extends AppCompatActivity implements View.OnClickListener{
                 startActivity(intent1);
                 break;
 
-            case R.id.textView:
+            case R.id.qwe:
                 Intent intent2 = new Intent(home.this, war.class);
                 startActivity(intent2);
                 break;

@@ -39,7 +39,7 @@
         android:layout_marginTop="150dp"
         android:text="Начать войну против Зомби!"
         android:clickable="true"
-        android:id="@+id/war"/>
+        android:id="@+id/qwe"/>
 
     <TextView
         android:layout_width="wrap_content"

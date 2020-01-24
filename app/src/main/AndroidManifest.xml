@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".psh5"></activity>
+        <activity android:name=".hl"></activity>
+        <activity android:name=".og" />
+        <activity android:name=".call" />
+        <activity android:name=".not" />
+        <activity android:name=".yes" />
+        <activity android:name=".psh5" />
         <activity android:name=".psh4" />
         <activity android:name=".psh3" />
         <activity android:name=".psh2" />

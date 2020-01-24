@@ -8,21 +8,21 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class nowan extends AppCompatActivity implements View.OnClickListener{
+public class yes extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nowan);
+        setContentView(R.layout.activity_yes);
 
         Button back = (Button) findViewById(R.id.back);
         back.setOnClickListener(this);
 
-        TextView yes = (TextView) findViewById(R.id.yes);
-        yes.setOnClickListener(this);
+        TextView window = (TextView) findViewById(R.id.window);
+        window.setOnClickListener(this);
 
-        TextView not = (TextView) findViewById(R.id.not);
-        not.setOnClickListener(this);
+        TextView call = (TextView) findViewById(R.id.call);
+        call.setOnClickListener(this);
 
     }
     @Override
@@ -31,17 +31,17 @@ public class nowan extends AppCompatActivity implements View.OnClickListener{
         switch (view.getId()){
 
             case R.id.back:
-                Intent intent = new Intent(nowan.this, MainActivity.class);
+                Intent intent = new Intent(yes.this, MainActivity.class);
                 startActivity(intent);
                 break;
 
-            case R.id.yes:
-                Intent intent1 = new Intent(nowan.this, yes.class);
+            case R.id.window:
+                Intent intent1 = new Intent(yes.this, window.class);
                 startActivity(intent1);
                 break;
 
-            case R.id.not:
-                Intent intent11 = new Intent(nowan.this, not.class);
+            case R.id.call:
+                Intent intent11 = new Intent(yes.this, not.class);
                 startActivity(intent11);
                 break;
         }
@@ -49,3 +49,6 @@ public class nowan extends AppCompatActivity implements View.OnClickListener{
 
     }
 }
+
+
+
