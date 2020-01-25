@@ -7,5 +7,58 @@
     tools:context=".war"
     android:background="@color/colorPrimaryDark">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_margin="20dp"
+        android:text="В меню"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorName"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Ты решил спасти этот мир и начать бароться с нечестью!
+
+Что Сделаем, как будем действовать?"
+        android:layout_marginTop="10dp"
+        android:id="@+id/wsa123"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/og"
+        android:textColor="@color/color1"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/wsa123"
+        android:text="Огнестрел"
+        android:layout_marginTop="60dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hl"
+        android:textColor="@color/color1"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/og"
+        android:text="Холодное оружее"
+        android:layout_marginTop="60dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        />
+
 
 </RelativeLayout>
