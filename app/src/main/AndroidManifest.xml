@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -9,31 +12,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hl"></activity>
-        <activity android:name=".og" />
-        <activity android:name=".call" />
-        <activity android:name=".not" />
-        <activity android:name=".yes" />
-        <activity android:name=".psh5" />
-        <activity android:name=".psh4" />
-        <activity android:name=".psh3" />
-        <activity android:name=".psh2" />
-        <activity android:name=".pash1freeman" />
-        <activity android:name=".help" />
-        <activity android:name=".war" />
-        <activity android:name=".Finich1" />
-        <activity android:name=".home" />
-        <activity android:name=".wan" />
-        <activity android:name=".nowan" />
-        <activity android:name=".window" />
-        <activity android:name=".lvl4" />
-        <activity android:name=".lvl3" />
-        <activity android:name=".lvl2" />
-        <activity android:name=".info" />
-        <activity android:name=".lvl1" />
-        <activity android:name=".start" />
-        <activity android:name=".wallpaper" />
-        <activity android:name=".MainActivity">
+        <activity android:name="dev.gs.they_are.hl"></activity>
+        <activity android:name="dev.gs.they_are.og" />
+        <activity android:name="dev.gs.they_are.call" />
+        <activity android:name="dev.gs.they_are.not" />
+        <activity android:name="dev.gs.they_are.yes" />
+        <activity android:name="dev.gs.they_are.psh5" />
+        <activity android:name="dev.gs.they_are.psh4" />
+        <activity android:name="dev.gs.they_are.psh3" />
+        <activity android:name="dev.gs.they_are.psh2" />
+        <activity android:name="dev.gs.they_are.pash1freeman" />
+        <activity android:name="dev.gs.they_are.help" />
+        <activity android:name="dev.gs.they_are.war" />
+        <activity android:name="dev.gs.they_are.Finich1" />
+        <activity android:name="dev.gs.they_are.home" />
+        <activity android:name="dev.gs.they_are.wan" />
+        <activity android:name="dev.gs.they_are.nowan" />
+        <activity android:name="dev.gs.they_are.window" />
+        <activity android:name="dev.gs.they_are.lvl4" />
+        <activity android:name="dev.gs.they_are.lvl3" />
+        <activity android:name="dev.gs.they_are.lvl2" />
+        <activity android:name="dev.gs.they_are.info" />
+        <activity android:name="dev.gs.they_are.lvl1" />
+        <activity android:name="dev.gs.they_are.start" />
+        <activity android:name="dev.gs.they_are.wallpaper" />
+        <activity android:name="dev.gs.they_are.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

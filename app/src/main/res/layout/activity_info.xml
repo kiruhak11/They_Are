@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".info"
+    tools:context="dev.gs.they_are.info"
     android:background="@color/colorPrimaryDark">
 
     <LinearLayout
@@ -138,9 +138,9 @@
                 android:layout_marginRight="15dp"
                 android:clickable="true"
                 android:gravity="center"
-                android:text="(Что бы посмотреть информацию о разработчиках, просто нажми на имя!)"
+                android:text="для просмотра подробной информации нажми на ник"
                 android:textColor="@color/color11"
-                android:textSize="15dp" />
+                android:textSize="12dp" />
 
         </RelativeLayout>
 
