@@ -3,8 +3,9 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.net.Uri;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,6 +19,8 @@ public class psh5 extends AppCompatActivity implements View.OnClickListener{
         ImageButton back = (ImageButton) findViewById(R.id.back);
         back.setOnClickListener(this);
 
+        TextView kiruhak = (TextView) findViewById(R.id.kiruhak);
+        kiruhak.setOnClickListener(this);
 
     }
 
@@ -31,9 +34,11 @@ public class psh5 extends AppCompatActivity implements View.OnClickListener{
                 startActivity(intent);
                 break;
 
+            case R.id.kiruhak:
 
 
-
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com/kiruhak11"));
+                startActivity(browserIntent);
 
 
         }

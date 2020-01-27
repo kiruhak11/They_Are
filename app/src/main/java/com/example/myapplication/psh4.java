@@ -3,8 +3,9 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.net.Uri;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,6 +18,10 @@ public class psh4 extends AppCompatActivity implements View.OnClickListener{
 
         ImageButton back = (ImageButton) findViewById(R.id.back);
         back.setOnClickListener(this);
+
+        TextView rubillex = (TextView) findViewById(R.id.rubillex);
+        rubillex.setOnClickListener(this);
+
 
 
     }
@@ -31,6 +36,11 @@ public class psh4 extends AppCompatActivity implements View.OnClickListener{
                 startActivity(intent);
                 break;
 
+            case R.id.rubillex:
+
+
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com/rubillex"));
+                startActivity(browserIntent);
 
 
 
