@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,7 +18,7 @@ public class wallpaper extends AppCompatActivity implements View.OnClickListener
 
         setContentView(R.layout.wallpaper_activity);
 
-        Button back = (Button) findViewById(R.id.back);
+        ImageButton back = (ImageButton) findViewById(R.id.back);
         back.setOnClickListener(this);
 
         TextView q1 = (TextView) findViewById(R.id.q1);

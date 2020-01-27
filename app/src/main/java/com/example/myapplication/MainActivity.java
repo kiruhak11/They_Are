@@ -8,8 +8,16 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.mancj.slideup.SlideUp;
+
 //__________________________________________________implements View.OnClickListener == подключение отслеживания нажатия в коде
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+
+
+
+
+
+
 
 
     @Override
@@ -17,9 +25,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
 
         //Находим объекты по айдишникам(wall_ЧИСЛО)___первая строка
         //Говорим что этот объект кликабелен____вторая строка
@@ -64,6 +69,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //это для того чтобы переходить между окнами(Активити)
         //если тебе ничего не надо передавать между окнами, то скипай весь этот код и смотри следующий коментарий
+
+
+
 
 
         switch (view.getId())

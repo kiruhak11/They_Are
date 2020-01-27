@@ -3,17 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".psh4"
-    android:background="@color/colorPrimaryDark">
+    android:background="@color/colorPrimaryDark"
+    android:paddingBottom="20dp">
 
-    <Button
+    <ImageButton
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/back"
-        android:layout_margin="20dp"
-        android:text="В меню"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/back"
+        android:background="?android:selectableItemBackground"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,19 +38,11 @@
         android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:text="Разработчик данного приложения, брат создателя проекта, человек который дал код, администратор в группе проекта в телеграмме!"
+        android:text="Один из разработчиков данного проекта, который дал код с двумя кнопками и отправил развлекаться с ним."
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/back1"
-        android:layout_margin="20dp"
-        android:text="Назад"
-        android:layout_toRightOf ="@id/back"
-        android:layout_alignParentBottom="true"
-        />
+
 
 </RelativeLayout>

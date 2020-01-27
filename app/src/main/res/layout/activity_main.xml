@@ -8,6 +8,17 @@
     android:orientation="vertical"
     android:background="@color/colorPrimaryDark">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dim"
+        android:alpha="0"
+        android:fitsSystemWindows="true"
+        android:background="@android:color/black"/>
+
+
+
+
 
     <ImageButton
         android:id="@+id/start"
@@ -72,6 +83,8 @@
         android:gravity="center"
         android:layout_marginTop="165dp"
         />
+
+
 
 
 </RelativeLayout>

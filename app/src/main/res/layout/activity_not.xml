@@ -21,6 +21,6 @@
         android:layout_height="wrap_content"
         android:textColor="@color/colorName"
         android:layout_centerHorizontal="true"
-        android:gravity="center"
-        t
+        android:gravity="center"/>
+
 </RelativeLayout>
