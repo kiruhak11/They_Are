@@ -32,6 +32,7 @@
         android:text="Ты протер пол и потерял сознание от недосыпа!
 Очнулся в 19:32 От воя сирен, у тебя болит голова!
 Что будешь делать?"
+        android:fontFamily="@font/osl"
         />
 
 
@@ -40,7 +41,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/window"
         android:layout_marginTop="60dp"
-        android:textStyle="bold"
+        android:fontFamily="@font/osr"
         android:clickable="true"
         android:textColor="@color/color1"
         android:text="Посмотреть в окно"
@@ -52,7 +53,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/call"
         android:layout_marginTop="60dp"
-        android:textStyle="bold"
+        android:fontFamily="@font/osr"
         android:clickable="true"
         android:textColor="@color/color1"
         android:text="Посмотреть в окно"

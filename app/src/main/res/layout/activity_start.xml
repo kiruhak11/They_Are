@@ -18,7 +18,8 @@
         android:text="@string/predistor"
         android:textColor="@color/colorAccent"
         android:textSize="16dp"
-        android:layout_marginTop="70dp"/>
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/osl"/>
 
     <ImageButton
         android:id="@+id/back"
@@ -33,11 +34,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ПредИстория! "
+        android:text="Предыстория! "
         android:textSize="36dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:textColor="@color/colorName"/>
+        android:textColor="@color/colorName"
+        android:fontFamily="@font/osb"/>
 
     <TextView
         android:id="@+id/starter"
@@ -48,6 +50,7 @@
         android:textColor="@color/color1"
         android:textSize="17dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="420dp"/>
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/osr"/>
 
 </RelativeLayout>

@@ -31,6 +31,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:fontFamily="@font/osl"
         />
 
     <TextView
@@ -42,7 +43,8 @@
         android:layout_marginTop="150dp"
         android:text="Начать войну против Зомби!"
         android:clickable="true"
-        android:id="@+id/qwe"/>
+        android:id="@+id/qwe"
+        android:fontFamily="@font/osr"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -53,6 +55,7 @@
         android:layout_marginTop="220dp"
         android:text="Суицыд (выпрыгнуть в окно)"
         android:clickable="true"
-        android:id="@+id/scd"/>
+        android:id="@+id/scd"
+        android:fontFamily="@font/osr"/>
 
 </RelativeLayout>

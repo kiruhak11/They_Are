@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="О Kiruhak"
+        android:text="Kiruhak"
         android:textSize="35dp"
         android:textColor="@color/colorName"
         android:layout_centerHorizontal="true"
@@ -29,6 +29,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:gravity="center"
+        android:fontFamily="@font/osb"
         />
 
     <TextView
@@ -44,7 +45,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:gravity="center"
-        />
+        android:fontFamily="@font/osl"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -57,6 +58,7 @@
         android:text="Создатель проекта Gs, сюжет, код, баги, пасхали, все на нем, админестратор во всех сообществах GS!"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:fontFamily="@font/osr"
         />
 
 

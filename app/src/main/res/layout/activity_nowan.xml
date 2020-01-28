@@ -31,6 +31,7 @@
 Что будешь делать?"
         android:layout_marginTop="10dp"
         android:id="@+id/wsa"
+        android:fontFamily="@font/osl"
         />
 
     <TextView
@@ -44,7 +45,7 @@
         android:text="Оставлю телефон дома"
         android:layout_marginTop="60dp"
         android:textSize="17dp"
-        android:textStyle="bold"
+        android:fontFamily="@font/osr"
         />
 
     <TextView
@@ -58,6 +59,7 @@
         android:text="Взять телефон с обой"
         android:layout_marginTop="60dp"
         android:textSize="17dp"
-        android:textStyle="bold"
+
+        android:fontFamily="@font/osr"
         />
 </RelativeLayout>

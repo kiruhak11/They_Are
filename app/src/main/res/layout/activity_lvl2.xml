@@ -18,7 +18,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/osl"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,7 +30,8 @@
         android:clickable="true"
         android:textSize="17dp"
         android:layout_marginTop="230dp"
-        android:id="@+id/lvl1q"/>
+        android:id="@+id/lvl1q"
+        android:fontFamily="@font/osr"/>
 
     <ImageButton
         android:id="@+id/back"

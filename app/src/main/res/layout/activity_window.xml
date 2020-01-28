@@ -28,7 +28,8 @@
         android:gravity="center"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/osl"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,6 +40,7 @@
         android:textColor="@color/color1"
         android:layout_marginTop="140dp"
         android:layout_centerHorizontal="true"
-        android:id="@+id/home"/>
+        android:id="@+id/home"
+        android:fontFamily="@font/osr"/>
 
 </RelativeLayout>

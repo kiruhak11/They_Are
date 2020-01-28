@@ -39,7 +39,8 @@
         android:textSize="50dp"
         android:clickable="true"
         android:layout_marginTop="100dp"
-        android:textColor="@color/colorName"/>
+        android:textColor="@color/colorName"
+        android:fontFamily="@font/osr"/>
 
     <TextView
         android:id="@+id/textView"
@@ -49,7 +50,8 @@
         android:textSize="10dp"
         android:layout_alignParentBottom="true"
         android:textColor="@color/colorAccent"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/osl"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -60,7 +62,8 @@
         android:text="Info"
         android:textColor="@color/color11"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"/>
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/osr"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -71,7 +74,8 @@
         android:text="Поддержать проект"
         android:textColor="@color/color11"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="520dp"/>
+        android:layout_marginTop="520dp"
+        android:fontFamily="@font/osr"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -81,7 +85,8 @@
         android:textSize="15dp"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:layout_marginTop="165dp"
+        android:layout_marginTop="174dp"
+        android:fontFamily="@font/osl"
         />
 
 

@@ -21,14 +21,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="О Rubillex"
+        android:text="Rubillex"
         android:textSize="35dp"
         android:textColor="@color/colorName"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:fontFamily="@font/osb"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -43,6 +44,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:gravity="center"
+        android:fontFamily="@font/osl"
         />
 
     <TextView
@@ -56,6 +58,7 @@
         android:text="Один из разработчиков данного проекта, который дал код с двумя кнопками и отправил развлекаться с ним."
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:fontFamily="@font/osr"
         />
 
 

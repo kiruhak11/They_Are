@@ -25,7 +25,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
-        />
+        android:fontFamily="@font/osl"/>
 
     <ImageButton
         android:id="@+id/back"
@@ -40,13 +40,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/help"
-        android:textSize="17dp"
+        android:textSize="15dp"
         android:textColor="@color/color1"
         android:clickable="true"
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:text="Поддержать проект"
-        android:layout_marginTop="300dp"/>
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/osb"/>
 
 
 </RelativeLayout>

@@ -25,7 +25,8 @@
                 android:layout_marginTop="10dp"
                 android:text="Информация"
                 android:textColor="@color/colorName"
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                android:fontFamily="@font/osb"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
                 android:gravity="center"
                 android:text="Создано при поддержки паблика VK GsMemes"
                 android:textColor="@color/colorAccent"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:fontFamily="@font/osl"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,7 +51,7 @@
                 android:gravity="center"
                 android:text="Создатели"
                 android:textColor="@color/colorName"
-                android:textStyle="bold" />
+                android:fontFamily="@font/osb"/>
 
             <TextView
                 android:id="@+id/psh5"
@@ -63,7 +65,8 @@
                 android:gravity="center"
                 android:text="Kiruhak"
                 android:textColor="@color/color1"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:fontFamily="@font/osl"/>
 
             <TextView
                 android:id="@+id/psh4"
@@ -77,7 +80,8 @@
                 android:gravity="center"
                 android:text="Rubillex"
                 android:textColor="@color/color1"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:fontFamily="@font/osl"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -89,7 +93,7 @@
                 android:gravity="center"
                 android:text="Бета-тестеры"
                 android:textColor="@color/colorName"
-                android:textStyle="bold" />
+                android:fontFamily="@font/osb"/>
 
             <TextView
                 android:id="@+id/psh3"
@@ -103,7 +107,8 @@
                 android:gravity="center"
                 android:text="Goombit"
                 android:textColor="@color/color1"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:fontFamily="@font/osl"/>
 
             <ImageButton
                 android:id="@+id/back"
@@ -127,7 +132,8 @@
                 android:gravity="center"
                 android:text="GreySharkra"
                 android:textColor="@color/color1"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:fontFamily="@font/osl"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -140,7 +146,8 @@
                 android:gravity="center"
                 android:text="для просмотра подробной информации нажми на ник"
                 android:textColor="@color/color11"
-                android:textSize="12dp" />
+                android:textSize="12dp"
+                android:fontFamily="@font/osl"/>
 
         </RelativeLayout>
 

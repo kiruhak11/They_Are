@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Поддержка проекта!"
+        android:text="Поддержать проект!"
         android:textColor="@color/colorName"
         android:gravity="center"
         android:layout_centerHorizontal="true"
@@ -19,6 +19,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:fontFamily="@font/osb"
         />
 
     <ImageButton
@@ -36,13 +37,13 @@
         android:layout_height="wrap_content"
         android:text="Qiwi: +79609430029"
         android:textColor="@color/colorAccent"
-        android:textStyle="bold"
         android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:fontFamily="@font/osr"
         />
 
     <TextView
@@ -50,7 +51,7 @@
         android:layout_height="wrap_content"
         android:text="Спасибо!"
         android:textColor="@color/colorAccent"
-        android:textStyle="bold"
+        android:fontFamily="@font/osr"
         android:gravity="center"
         android:layout_centerHorizontal="true"
         android:textSize="25dp"

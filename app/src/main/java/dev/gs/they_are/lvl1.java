@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapplication.R;
 
+import org.w3c.dom.Text;
+
 public class lvl1 extends AppCompatActivity implements View.OnClickListener{
 
     @Override
@@ -54,9 +56,6 @@ public class lvl1 extends AppCompatActivity implements View.OnClickListener{
                 Intent jobs = new Intent(lvl1.this, lvl4.class);
                 startActivity(jobs);
                 break;
-
-
-
         }
 
 

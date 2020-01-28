@@ -19,7 +19,9 @@
         android:textSize="20dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:fontFamily="@font/osl"
         />
+
     <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -32,6 +34,7 @@
     android:textSize="20dp"
     android:layout_marginLeft="15dp"
     android:layout_marginRight="15dp"
+        android:fontFamily="@font/osb"
     />
 
     <ImageButton
@@ -54,6 +57,7 @@
         android:textColor="@color/color1"
         android:clickable="true"
         android:textSize="17dp"
+        android:fontFamily="@font/osr"
         />
 
     <TextView
@@ -65,7 +69,8 @@
         android:textColor="@color/color1"
         android:clickable="true"
         android:textSize="17dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/osr"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -76,9 +81,8 @@
         android:textColor="@color/color1"
         android:clickable="true"
         android:textSize="17dp"
-        android:layout_centerHorizontal="true"/>
-
-
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/osr"/>
 
 
 
