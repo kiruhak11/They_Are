@@ -35,16 +35,19 @@ public class nowan extends AppCompatActivity implements View.OnClickListener{
             case R.id.back:
                 Intent intent = new Intent(nowan.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.yes:
                 Intent intent1 = new Intent(nowan.this, yes.class);
                 startActivity(intent1);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.not:
                 Intent intent11 = new Intent(nowan.this, not.class);
                 startActivity(intent11);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
         }
 

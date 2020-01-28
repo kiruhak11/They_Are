@@ -34,6 +34,7 @@ public class psh5 extends AppCompatActivity implements View.OnClickListener{
 
                 Intent intent = new Intent(psh5.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.kiruhak:

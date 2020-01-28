@@ -31,11 +31,13 @@ public class lvl3 extends AppCompatActivity implements View.OnClickListener {
             case R.id.back:
                 Intent intent = new Intent(lvl3.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.window:
                 Intent intent1 = new Intent(lvl3.this, window.class);
                 startActivity(intent1);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
 

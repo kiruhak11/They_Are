@@ -39,15 +39,18 @@ public class wallpaper extends AppCompatActivity implements View.OnClickListener
 
                 Intent intent = new Intent(wallpaper.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.q1:
                 Intent intent1 = new Intent(wallpaper.this, start.class);
                 startActivity(intent1);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.q2:
                 Intent intent3 = new Intent(wallpaper.this, lvl1.class);
                 startActivity(intent3);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
 
         }

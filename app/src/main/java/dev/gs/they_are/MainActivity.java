@@ -51,20 +51,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.start:
                 Intent intent = new Intent(MainActivity.this, wallpaper.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
             case R.id.textView2:
             Intent info = new Intent(MainActivity.this, info.class);
             startActivity(info);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             break;
 
             case R.id.textView3:
                 Intent help = new Intent(MainActivity.this, help.class);
                 startActivity(help);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.text1:
                 Intent text1 = new Intent(MainActivity.this, pash1freeman.class);
                 startActivity(text1);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
         }
 

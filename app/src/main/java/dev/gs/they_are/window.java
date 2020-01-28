@@ -30,11 +30,13 @@ public class window extends AppCompatActivity implements View.OnClickListener{
             case R.id.back:
                 Intent intent = new Intent(window.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.home:
                 Intent intent1 = new Intent(window.this, home.class);
                 startActivity(intent1);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
 

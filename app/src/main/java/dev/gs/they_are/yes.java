@@ -35,16 +35,19 @@ public class yes extends AppCompatActivity implements View.OnClickListener{
             case R.id.back:
                 Intent intent = new Intent(yes.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.window:
                 Intent intent1 = new Intent(yes.this, window.class);
                 startActivity(intent1);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.call:
                 Intent intent11 = new Intent(yes.this, not.class);
                 startActivity(intent11);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
         }
 

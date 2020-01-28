@@ -27,6 +27,7 @@ public class help extends AppCompatActivity implements View.OnClickListener{
 
                 Intent intent = new Intent(help.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
 

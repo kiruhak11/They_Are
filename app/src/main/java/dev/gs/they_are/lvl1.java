@@ -40,21 +40,25 @@ public class lvl1 extends AppCompatActivity implements View.OnClickListener{
             case R.id.back:
                 Intent intent = new Intent(lvl1.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.call:
                 Intent intentq = new Intent(lvl1.this, lvl2.class);
                 startActivity(intentq);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.sleep:
                 Intent sleep = new Intent(lvl1.this, lvl3.class);
                 startActivity(sleep);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.jobs:
                 Intent jobs = new Intent(lvl1.this, lvl4.class);
                 startActivity(jobs);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
         }
 

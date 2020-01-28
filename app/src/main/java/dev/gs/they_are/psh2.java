@@ -35,6 +35,7 @@ public void onClick(View view)
 
                     Intent intent = new Intent(psh2.this, MainActivity.class);
                     startActivity(intent);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                     break;
 
                 case R.id.greysharkra:

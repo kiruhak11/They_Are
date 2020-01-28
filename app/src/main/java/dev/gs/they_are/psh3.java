@@ -34,6 +34,7 @@ public class psh3 extends AppCompatActivity implements View.OnClickListener{
 
                 Intent intent = new Intent(psh3.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.goom:

@@ -40,27 +40,32 @@ public class info extends AppCompatActivity implements View.OnClickListener{
 
                 Intent intent = new Intent(info.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
 
             case R.id.psh2:
                 Intent intent1 = new Intent(info.this, psh2.class);
                 startActivity(intent1);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.psh3:
                 Intent intent2 = new Intent(info.this, psh3.class);
                 startActivity(intent2);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.psh4:
                 Intent intent3 = new Intent(info.this, psh4.class);
                 startActivity(intent3);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.psh5:
                 Intent intent4 = new Intent(info.this, psh5.class);
                 startActivity(intent4);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
         }
     }

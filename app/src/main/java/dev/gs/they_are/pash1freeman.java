@@ -27,6 +27,7 @@ public class pash1freeman extends AppCompatActivity implements View.OnClickListe
 
                 Intent intent = new Intent(pash1freeman.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
 

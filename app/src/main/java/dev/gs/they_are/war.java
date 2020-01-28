@@ -35,16 +35,19 @@ public class war extends AppCompatActivity implements View.OnClickListener{
             case R.id.back:
                 Intent intent = new Intent(war.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.og:
                 Intent intent1 = new Intent(war.this, og.class);
                 startActivity(intent1);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
 
             case R.id.hl:
                 Intent intent11 = new Intent(war.this, hl.class);
                 startActivity(intent11);
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 break;
         }
 
