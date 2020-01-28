@@ -1,2 +1,2 @@
-include ':app', ':vk-sdk-core'
+include ':app'
 rootProject.name='My Application'

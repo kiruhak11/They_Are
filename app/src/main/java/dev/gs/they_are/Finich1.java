@@ -12,6 +12,9 @@ import com.example.myapplication.R;
 
 public class Finich1 extends AppCompatActivity implements View.OnClickListener{
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +25,8 @@ public class Finich1 extends AppCompatActivity implements View.OnClickListener{
 
         TextView help = (TextView) findViewById(R.id.help);
         help.setOnClickListener(this);
+
+
     }
 
 
