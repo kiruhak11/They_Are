@@ -36,5 +36,5 @@
 Проснулся в 19:32 От воя сирен!
     </string>
 
-
+    <integer name="com_vk_sdk_AppId">6647075</integer>
 </resources>

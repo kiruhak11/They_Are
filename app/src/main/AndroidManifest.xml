@@ -36,6 +36,7 @@
         <activity android:name="dev.gs.they_are.info" />
         <activity android:name="dev.gs.they_are.lvl1" />
         <activity android:name="dev.gs.they_are.start" />
+        <activity android:name="com.vk.sdk.VKServiceActivity" android:label="ServiceActivity" android:theme="@style/VK.Transparent" />
         <activity android:name="dev.gs.they_are.wallpaper" />
         <activity android:name="dev.gs.they_are.MainActivity">
             <intent-filter>

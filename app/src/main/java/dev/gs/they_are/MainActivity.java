@@ -56,10 +56,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         TextView text1 = (TextView) findViewById(R.id.text1);
         text1.setOnClickListener(this);
+
+
     }
-
-
-
 
 
     //функция которая вызывается при нажатии на что-то( ДЛЯ ТОГО ЧТОБЫ МОЖНО БЫЛО НАЖИМАТЬ)
